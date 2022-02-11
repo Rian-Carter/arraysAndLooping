@@ -6,9 +6,9 @@ var mrRobo = function(input) {
   for(let i = 0; i <= input; i++) {
     numbers.push(i);
   };
-  numbers[numbers.indexOf("1")] = beep;
-  numbers[numbers.indexOf("2")] = boop;
   numbers[numbers.indexOf("3")] = neighbor;
-
+  numbers[numbers.indexOf("2")] = boop;
+  numbers[numbers.indexOf("1")] = beep;
+  
   return numbers
 }
