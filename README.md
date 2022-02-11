@@ -24,11 +24,15 @@
 
 ## Tests:
 
-#### Describe: function
+#### Describe: beepBoop
 
-* Test:
-* Code: 
-* Expected Output: 
+* Test: "It will return a new list of numbers starting at 0 up to the users inputted number"
+* Code: 5
+* Expected Output: 0,1,2,3,4,5
+
+* Test: "It will return list of numbers starting at 0 to the user's inputted number and replace 1 with "beep!"
+* Code: 5
+* Expected Output: 0,beep!,2,3,4,5
 
 
 ## Known Bugs
