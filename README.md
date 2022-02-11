@@ -15,7 +15,7 @@
 * Javascript
 * jQuery
 
-## This application will take user input and feed it back out to the user replacing certain numbers with words. ex. 1 will become "Beep!"
+### This application will take user input and feed it back out to the user replacing certain numbers with words. ex. 1 will become "Beep!"
 
 ## Setup/Installation Requirements
 
