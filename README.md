@@ -38,9 +38,21 @@
 * Code : mrRobo(5);
 * Expected Output: 0,beep!,boop!,3,4,5
 
-* Test: "It will return list of numbers starting at 0 to the user's inputted number and rplace 3 with "Won't you be my neighbor?"
+* Test: "It will return list of numbers starting at 0 to the user's inputted number and replace 3 with "Won't you be my neighbor?"
 * Code: mrRobo(5);
-* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5 
+* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5
+
+* Test: "It will return a list of numbers starting at 0 to the user's inputted number and replace any number that has 1 with "beep!"
+* Code mrRobo(10);
+* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5,6,7,8,9,beep!
+
+* Test: "It will return a list of numbers starting at 0 to the user's inputted number and replace any number that has 2 with "boop! while overiding the 1s"
+* Code: mrRobo(12);
+* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5,6,7,8,9,beep!,beep!,boop!
+
+* Test: "It will return a list of numbers starting at 0 to the user's inputted number and replace any number that has 3 with "won't you be my neighbor?" while overiding the 1s & 2s.
+* Code: mrRobo(36);
+* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5,6,7,8,9,beep!,beep!,boop!
 
 ## Known Bugs
 
