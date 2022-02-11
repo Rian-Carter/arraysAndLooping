@@ -24,16 +24,23 @@
 
 ## Tests:
 
-#### Describe: beepBoop
+#### Describe: mrRobo
 
 * Test: "It will return a new list of numbers starting at 0 up to the users inputted number"
-* Code: 5
+* Code: mrRobo(5);
 * Expected Output: 0,1,2,3,4,5
 
 * Test: "It will return list of numbers starting at 0 to the user's inputted number and replace 1 with "beep!"
-* Code: 5
+* Code: mrRobo(5);
 * Expected Output: 0,beep!,2,3,4,5
 
+* Test: "It will return list of numbers starting at 0 to the user's inputted number and replace 2 with "boop!"
+* Code : mrRobo(5);
+* Expected Output: 0,beep!,boop!,3,4,5
+
+* Test: "It will return list of numbers starting at 0 to the user's inputted number and rplace 3 with "Won't you be my neighbor?"
+* Code: mrRobo(5);
+* Expected Output: 0,beep!,boop!,won't you be my neighbor?,4,5 
 
 ## Known Bugs
 
