@@ -1,7 +1,30 @@
 body {
-  background-color: bisque;
+  background-color: rgb(216, 228, 245);
+}
+
+h1 {
+  width: auto;
+  border: 5px solid white;
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.row {
+  width: auto;
+  border: 5px;
+  padding: 50px;
+  margin: 50px;
 }
 
 .output {
+  /* animation-duration: 3s;
+  animation-name: slidein; */
   display: none;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
