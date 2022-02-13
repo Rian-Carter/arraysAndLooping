@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  font-family: calibri;
   width: auto;
   border: 5px solid white;
   padding: 25px;
@@ -22,9 +23,6 @@ h1 {
 }
 
 .output {
-  /* animation-duration: 3s;
-  animation-name: slidein; */
   display: none;
-  animation-duration: 3s;
-  animation-name: slidein;
+  font-family: calibri;
 }
